@@ -1,0 +1,25 @@
+{
+  "name": "jelte/php-automoton-recipes",
+  "description": "Recipes for Automoton",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jelte Steijaert",
+      "email": "jelte@khepri.be"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Automaton\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/jelte/automaton.git"
+    }
+  ],
+  "require": {
+    "jelte/php-automoton": "dev-master"
+  }
+}
