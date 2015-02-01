@@ -10,7 +10,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Automaton\\Recipes\\": ""
+      "Automaton\\Recipes\\": "Automaton/Recipes"
     }
   },
   "repositories": [
