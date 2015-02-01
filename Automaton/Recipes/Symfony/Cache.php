@@ -1,6 +1,6 @@
 <?php
 
-namespace Automaton\Resources\Recipes\Symfony;
+namespace Automaton\Recipes\Symfony;
 
 use Automaton\Recipe\Annotation as Automaton;
 use Automaton\RuntimeEnvironment;

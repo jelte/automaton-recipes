@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Automaton\Resources\Recipes;
+namespace Automaton\Recipes;
 
 use Automaton\Recipe\Annotation as Automaton;
 use Symfony\Component\Console\Output\OutputInterface;

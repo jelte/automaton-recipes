@@ -6,7 +6,7 @@
  * Time: 19:30
  */
 
-namespace Automaton\Resources\Recipes\Symfony;
+namespace Automaton\Recipes\Symfony;
 
 use Automaton\Recipe\Annotation as Automaton;
 use Automaton\RuntimeEnvironment;

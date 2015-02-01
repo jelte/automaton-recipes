@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Automaton\Resources\Recipes;
+namespace Automaton\Recipes;
 
 
 use Automaton\RuntimeEnvironment;

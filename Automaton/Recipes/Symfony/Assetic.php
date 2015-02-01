@@ -6,13 +6,13 @@
  * Time: 19:20
  */
 
-namespace Automaton\Resources\Recipes\Symfony;
+namespace Automaton\Recipes\Symfony;
 
 use Automaton\Recipe\Annotation as Automaton;
 use Automaton\RuntimeEnvironment;
 use Automaton\Server\ServerInterface;
 
-class Assets
+class Assetic
 {
     /**
      * @Automaton\Task(description="install bundle assets")
@@ -20,6 +20,6 @@ class Assets
      */
     public function install(RuntimeEnvironment $env, ServerInterface $server)
     {
-        $server->run("php {$server->cwd('releases/'. $env->get('release').'/app/console')} --env={$env->get('symfony.stage')} -v assets:install --symlink --relative {$server->cwd('releases/'. $env->get('release').'/web')}");
+        $server->run("php {$server->cwd('releases/'. $env->get('release/app/console'))} --env={$env->get('symfony.stage')} -v assetic:dump");
     }
 }
